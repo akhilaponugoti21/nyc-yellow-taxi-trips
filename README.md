@@ -13,7 +13,7 @@ Clone the repository to your local machine:
    cd nyc-yellow-taxi-trips
 Download yellow_tripdata_2024-01 or any parquet file from the  NYC “Yellow Taxi” Trips Data(https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
-
+Want to access my git directly, Link to my github:  https://github.com/akhilaponugoti21/nyc-yellow-taxi-trips.git
 
 ##file-structure
    
