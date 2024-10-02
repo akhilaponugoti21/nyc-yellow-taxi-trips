@@ -28,37 +28,38 @@ Navigate to the directory: cd /path/to/nyc-yellow-taxi-trips
 
 python analyze_taxi_data.py
 
-The script analyze_taxi_data.py performs several key operations:
 
-Import Libraries:
+The script `analyze_taxi_data.py` performs several key operations:
 
-Uses the pandas library for data manipulation.
-Set File Path:
+- **Import Libraries**: 
+  - Use the `pandas` library for data manipulation.
+  
+- **Set File Path**:
+  - Specify the path to the input file, which needs to be updated based on the user's local environment.
 
-Specifies the path to the input file, which should be updated based on the user's local environment.
-Load Data:
+- **Load Data**:
+  - Reads the Parquet file into a DataFrame. If the file is not found, it handles the error gracefully.
 
-Reads the Parquet file into a DataFrame. If the file is not found, it handles the error gracefully.
-Calculate the 90th Percentile:
+- **Calculate the 90th Percentile**:
+  - Computes the 90th percentile of trip distances, which helps identify outlier trips.
 
-Computes the 90th percentile of trip distances to identify outlier trips.
-Filter Data:
+- **Filter Data**:
+  - Filters the DataFrame to retain only trips longer than the calculated 90th percentile.
 
-Filters the DataFrame to retain only trips longer than the calculated 90th percentile.
-Display Data:
+- **Display Data**:
+  - Prints the filtered data for user inspection.
 
-Prints the filtered data for user inspection.
-Save Filtered Data:
+- **Save Filtered Data**:
+  - Exports the filtered data to a CSV file for further analysis.
 
-Exports the filtered data to a CSV file for further analysis.
-Output
-The output will be a CSV file named filtered_yellow_taxi_trips.csv, containing only the trips exceeding the 90th percentile distance.
+## Output
+- The output will be a CSV file named `filtered_yellow_taxi_trips.csv` containing only the trips exceeding the 90th percentile distance.
 
-Assumptions
+##Assumptions
 The input Parquet file is properly formatted and accessible.
 The relevant column for trip distances is named trip_distance.
-Questions & Clarifications
-If you have any questions or need further clarifications about the analysis or data, please feel free to reach out via email at [your-email@example.com].
+##Questions & Clarifications
+If you have any questions or need further clarifications about the analysis or data, please feel free to reach out via email at [akhilaponugoti21@gmail.com].
 
 
 #author
