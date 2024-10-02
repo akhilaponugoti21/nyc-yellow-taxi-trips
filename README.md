@@ -55,6 +55,7 @@ The script `analyze_taxi_data.py` performs several key operations:
 
 ## Output
 - The output will be a CSV file named `filtered_yellow_taxi_trips.csv` containing only the trips exceeding the 90th percentile distance.
+I have zipped csv, please unZip to see the results.
 
 ##Assumptions
 The input Parquet file is properly formatted and accessible.
