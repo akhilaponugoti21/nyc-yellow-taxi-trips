@@ -11,6 +11,7 @@ Clone the repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/nyc-yellow-taxi-trips.git
    cd nyc-yellow-taxi-trips
+Download yellow_tripdata_2024-01 or any parquet file from the  NYC “Yellow Taxi” Trips Data(https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 
 
 
